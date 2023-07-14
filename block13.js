@@ -9,9 +9,12 @@ const input1c = null;
 const input1d = undefined;
 const input1e = 0;
 const input1f = "";
-let test1 = input1a
+
 
 //can just switch out the values below to test the if/else if/else statement
+let test1 = input1a
+
+//this is the if/else if/else statement to test
 
 if (test1 === "I am a string") {
   console.log(true);
@@ -56,6 +59,8 @@ const sum6=num1f+num2f
 
 let test2=sum1
 
+//this is the if/else if/else statement to test
+
 if (test2<-1000) {console.log (test2+' is less than -1000');
 } else if (test2<0) {console.log (test2+' is a negative number');
 } else if (test2==0) {console.log (test2+' is equal to 0');
@@ -85,6 +90,8 @@ const int6b=5
 
 let val1=int1a
 let val2=int1b
+
+//this is the if/else statement with && to test
 
 if (val1 && val2 >= 5) {
   console.log (true);
@@ -127,6 +134,8 @@ let firstpairval1=param11a
 let firstpairval2=param11b
 let secondpairval1=param12a
 let secondpairval2=param12b
+
+//this is the if/else statement with || to test
 
 if (firstpairval1===firstpairval2||secondpairval1===secondpairval2) {
   console.log (true);
